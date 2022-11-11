@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+    <form action="form">
+        <label id="username"class="username" for="name">Name</label>
+        <input type="username" placeholder="Name" id ="Name"/>
+        <label id="userSurname"class="userSurname" for="Surname">Surname</label>
+        <input type="userSurname" placeholder="Surname" id ="surname"/>
+        <label id="userAge"class="userAge" for="Age">Age</label>
+        <input type="userAge" placeholder="Age" id ="Age"/>
+        <label id="Experience "class="Experience " for="Experience ">Experience </label>
+        <input type="Experience " placeholder="Experience " id ="Experience "/>
+    
+        <select name="Nationality">
+        <option value="Nationality">Nationality</option>
+        <option value="Azerbaijan">Azerbaijan</option>
+        <option value=" Russia "> Russia </option>
+        <option value=" Turkey "> Turkey </option>
+        <option value=" Georgia "> Georgia </option>
+        </select>
+      
+            <select>
+              <option value="0">Position</option>
+              <option value="1">Frontend Developer</option>
+              <option value="2">Backend
+                Developer</option></select>
+                <button>mybutton</button>
+    </form>
+            <table id="table" style="border: 1px solid;">
+                <tr>
+                    <thead>
+                       <th scope="col">#</th>
+                       <th scope="col">Name</th>
+                       <th scope="col">Surname</th>
+                       <th scope="col">Age</th>
+                       <th scope="col">Experience</th>
+                       <th scope="col">Nationality</th>
+                       <th scope="col">Position</th>
+                    </thead>
+                  <tbody id="tbodyID">
+
+                  </tbody>
+                </tr>
+                
+                    
+            </table>
+        <script src="index.js"></script>
+                
+
+</body>
+</html>
